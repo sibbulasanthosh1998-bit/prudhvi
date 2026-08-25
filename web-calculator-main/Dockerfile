@@ -21,4 +21,4 @@ COPY --from=builder /app/target/*.war /app/tomcat/webapps/
 
 EXPOSE 8080
 
-CMD ["/app/tomcat/bin/catalina.sh", "run"]
+CMD ["/app/tomcat/bin/catalina.sh", "run"]  
